@@ -7,20 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090C98751EB07274009B5687 /* BTCStateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 090C98741EB07274009B5687 /* BTCStateObject.m */; };
+		091611801EAD94D500FCA016 /* BTCInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0916117F1EAD94D500FCA016 /* BTCInfoTableViewCell.m */; };
+		098AD9381EBC257A0029671A /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9311EBC25790029671A /* BaiduMapAPI_Base.framework */; };
+		098AD9391EBC257A0029671A /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9321EBC25790029671A /* BaiduMapAPI_Cloud.framework */; };
+		098AD93A1EBC257A0029671A /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9331EBC25790029671A /* BaiduMapAPI_Location.framework */; };
+		098AD93B1EBC257A0029671A /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9341EBC25790029671A /* BaiduMapAPI_Map.framework */; };
+		098AD93C1EBC257A0029671A /* BaiduMapAPI_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9351EBC25790029671A /* BaiduMapAPI_Radar.framework */; };
+		098AD93D1EBC257A0029671A /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9361EBC25790029671A /* BaiduMapAPI_Search.framework */; };
+		098AD93E1EBC257A0029671A /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9371EBC257A0029671A /* BaiduMapAPI_Utils.framework */; };
+		098AD9401EBC25D10029671A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD93F1EBC25D10029671A /* CoreLocation.framework */; };
+		098AD9421EBC25DB0029671A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9411EBC25DB0029671A /* QuartzCore.framework */; };
+		098AD9441EBC25E40029671A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9431EBC25E40029671A /* OpenGLES.framework */; };
+		098AD9461EBC25EB0029671A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9451EBC25EB0029671A /* SystemConfiguration.framework */; };
+		098AD9481EBC25F20029671A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9471EBC25F20029671A /* CoreGraphics.framework */; };
+		098AD94A1EBC25FA0029671A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9491EBC25FA0029671A /* Security.framework */; };
+		098AD94C1EBC26060029671A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD94B1EBC26060029671A /* libsqlite3.0.tbd */; };
+		098AD94E1EBC26120029671A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD94D1EBC26120029671A /* CoreTelephony.framework */; };
+		098AD9501EBC26220029671A /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD94F1EBC26220029671A /* libstdc++.6.0.9.tbd */; };
+		098AD9531EBC262D0029671A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9511EBC262D0029671A /* libcrypto.a */; };
+		098AD9541EBC262D0029671A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9521EBC262D0029671A /* libssl.a */; };
+		098AD9561EBC27E00029671A /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 098AD9551EBC27E00029671A /* mapapi.bundle */; };
+		098AD9581EBC2C520029671A /* kakao.caf in Resources */ = {isa = PBXBuildFile; fileRef = 098AD9571EBC2C520029671A /* kakao.caf */; };
+		098AD95A1EBC2D010029671A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD9591EBC2D010029671A /* AVFoundation.framework */; };
+		098AD95C1EBC2D600029671A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098AD95B1EBC2D600029671A /* AudioToolbox.framework */; };
+		098AD95E1EBC30620029671A /* warning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 098AD95D1EBC30620029671A /* warning.mp3 */; };
+		098AD9631EBC64840029671A /* BTCRemoteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 098AD9621EBC64840029671A /* BTCRemoteTableViewController.m */; };
+		098AD9661EBC654C0029671A /* UIImage+ZBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 098AD9651EBC654C0029671A /* UIImage+ZBAdd.m */; };
 		09C3ED8A1E9E01FE00081AE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3ED891E9E01FE00081AE8 /* main.m */; };
-		09C3ED8D1E9E01FE00081AE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3ED8C1E9E01FE00081AE8 /* AppDelegate.m */; };
+		09C3ED8D1E9E01FE00081AE8 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 09C3ED8C1E9E01FE00081AE8 /* AppDelegate.mm */; };
 		09C3ED8F1E9E01FE00081AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C3ED8E1E9E01FE00081AE8 /* Assets.xcassets */; };
 		09C3ED921E9E01FE00081AE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C3ED901E9E01FE00081AE8 /* LaunchScreen.storyboard */; };
+		09C3ED9B1E9E02B000081AE8 /* BTCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3ED9A1E9E02B000081AE8 /* BTCTableViewController.m */; };
+		09C3ED9E1E9E08B500081AE8 /* BTCPeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3ED9D1E9E08B500081AE8 /* BTCPeripheralViewController.m */; };
+		09C3EDA11EA070F200081AE8 /* BTCSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3EDA01EA070F200081AE8 /* BTCSwitchTableViewCell.m */; };
+		09F502661EB9AA6400B05279 /* BTCMapViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 09F502651EB9AA6400B05279 /* BTCMapViewController.mm */; };
+		CF50AE90A6B31CB253069D44 /* libPods-BlueToothCase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0FD29D09E2C0FEB8559997 /* libPods-BlueToothCase.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		090C98731EB07274009B5687 /* BTCStateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCStateObject.h; sourceTree = "<group>"; };
+		090C98741EB07274009B5687 /* BTCStateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCStateObject.m; sourceTree = "<group>"; };
+		0916117E1EAD94D500FCA016 /* BTCInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCInfoTableViewCell.h; sourceTree = "<group>"; };
+		0916117F1EAD94D500FCA016 /* BTCInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCInfoTableViewCell.m; sourceTree = "<group>"; };
+		098AD9311EBC25790029671A /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		098AD9321EBC25790029671A /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		098AD9331EBC25790029671A /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		098AD9341EBC25790029671A /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		098AD9351EBC25790029671A /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		098AD9361EBC25790029671A /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		098AD9371EBC257A0029671A /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		098AD93F1EBC25D10029671A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		098AD9411EBC25DB0029671A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		098AD9431EBC25E40029671A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		098AD9451EBC25EB0029671A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		098AD9471EBC25F20029671A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		098AD9491EBC25FA0029671A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		098AD94B1EBC26060029671A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		098AD94D1EBC26120029671A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		098AD94F1EBC26220029671A /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		098AD9511EBC262D0029671A /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		098AD9521EBC262D0029671A /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		098AD9551EBC27E00029671A /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		098AD9571EBC2C520029671A /* kakao.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kakao.caf; sourceTree = "<group>"; };
+		098AD9591EBC2D010029671A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		098AD95B1EBC2D600029671A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		098AD95D1EBC30620029671A /* warning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = warning.mp3; sourceTree = "<group>"; };
+		098AD9611EBC64840029671A /* BTCRemoteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCRemoteTableViewController.h; sourceTree = "<group>"; };
+		098AD9621EBC64840029671A /* BTCRemoteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCRemoteTableViewController.m; sourceTree = "<group>"; };
+		098AD9641EBC654C0029671A /* UIImage+ZBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZBAdd.h"; sourceTree = "<group>"; };
+		098AD9651EBC654C0029671A /* UIImage+ZBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZBAdd.m"; sourceTree = "<group>"; };
 		09C3ED851E9E01FE00081AE8 /* BlueToothCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueToothCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C3ED891E9E01FE00081AE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09C3ED8B1E9E01FE00081AE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		09C3ED8C1E9E01FE00081AE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09C3ED8C1E9E01FE00081AE8 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		09C3ED8E1E9E01FE00081AE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09C3ED911E9E01FE00081AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09C3ED931E9E01FE00081AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C3ED991E9E02B000081AE8 /* BTCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCTableViewController.h; sourceTree = "<group>"; };
+		09C3ED9A1E9E02B000081AE8 /* BTCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCTableViewController.m; sourceTree = "<group>"; };
+		09C3ED9C1E9E08B500081AE8 /* BTCPeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCPeripheralViewController.h; sourceTree = "<group>"; };
+		09C3ED9D1E9E08B500081AE8 /* BTCPeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCPeripheralViewController.m; sourceTree = "<group>"; };
+		09C3ED9F1EA070F200081AE8 /* BTCSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCSwitchTableViewCell.h; sourceTree = "<group>"; };
+		09C3EDA01EA070F200081AE8 /* BTCSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCSwitchTableViewCell.m; sourceTree = "<group>"; };
+		09F502641EB9AA6400B05279 /* BTCMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCMapViewController.h; sourceTree = "<group>"; };
+		09F502651EB9AA6400B05279 /* BTCMapViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BTCMapViewController.mm; sourceTree = "<group>"; };
+		1F3AF7C3D225E0F9585496ED /* Pods-BlueToothCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueToothCase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueToothCase/Pods-BlueToothCase.debug.xcconfig"; sourceTree = "<group>"; };
+		9D0FD29D09E2C0FEB8559997 /* libPods-BlueToothCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlueToothCase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1847971B2409812F8656C99 /* Pods-BlueToothCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueToothCase.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueToothCase/Pods-BlueToothCase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +102,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098AD95C1EBC2D600029671A /* AudioToolbox.framework in Frameworks */,
+				098AD95A1EBC2D010029671A /* AVFoundation.framework in Frameworks */,
+				098AD9501EBC26220029671A /* libstdc++.6.0.9.tbd in Frameworks */,
+				098AD94E1EBC26120029671A /* CoreTelephony.framework in Frameworks */,
+				098AD94C1EBC26060029671A /* libsqlite3.0.tbd in Frameworks */,
+				098AD94A1EBC25FA0029671A /* Security.framework in Frameworks */,
+				098AD9481EBC25F20029671A /* CoreGraphics.framework in Frameworks */,
+				098AD9461EBC25EB0029671A /* SystemConfiguration.framework in Frameworks */,
+				098AD9441EBC25E40029671A /* OpenGLES.framework in Frameworks */,
+				098AD9421EBC25DB0029671A /* QuartzCore.framework in Frameworks */,
+				098AD9531EBC262D0029671A /* libcrypto.a in Frameworks */,
+				098AD9401EBC25D10029671A /* CoreLocation.framework in Frameworks */,
+				CF50AE90A6B31CB253069D44 /* libPods-BlueToothCase.a in Frameworks */,
+				098AD93C1EBC257A0029671A /* BaiduMapAPI_Radar.framework in Frameworks */,
+				098AD9381EBC257A0029671A /* BaiduMapAPI_Base.framework in Frameworks */,
+				098AD9391EBC257A0029671A /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				098AD93E1EBC257A0029671A /* BaiduMapAPI_Utils.framework in Frameworks */,
+				098AD93B1EBC257A0029671A /* BaiduMapAPI_Map.framework in Frameworks */,
+				098AD93A1EBC257A0029671A /* BaiduMapAPI_Location.framework in Frameworks */,
+				098AD9541EBC262D0029671A /* libssl.a in Frameworks */,
+				098AD93D1EBC257A0029671A /* BaiduMapAPI_Search.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		098AD9301EBC256D0029671A /* BaiduMap */ = {
+			isa = PBXGroup;
+			children = (
+				098AD9511EBC262D0029671A /* libcrypto.a */,
+				098AD9521EBC262D0029671A /* libssl.a */,
+				098AD9551EBC27E00029671A /* mapapi.bundle */,
+				098AD9311EBC25790029671A /* BaiduMapAPI_Base.framework */,
+				098AD9321EBC25790029671A /* BaiduMapAPI_Cloud.framework */,
+				098AD9331EBC25790029671A /* BaiduMapAPI_Location.framework */,
+				098AD9341EBC25790029671A /* BaiduMapAPI_Map.framework */,
+				098AD9351EBC25790029671A /* BaiduMapAPI_Radar.framework */,
+				098AD9361EBC25790029671A /* BaiduMapAPI_Search.framework */,
+				098AD9371EBC257A0029671A /* BaiduMapAPI_Utils.framework */,
+			);
+			name = BaiduMap;
+			sourceTree = "<group>";
+		};
 		09C3ED7C1E9E01FE00081AE8 = {
 			isa = PBXGroup;
 			children = (
+				098AD9301EBC256D0029671A /* BaiduMap */,
 				09C3ED871E9E01FE00081AE8 /* BlueToothCase */,
 				09C3ED861E9E01FE00081AE8 /* Products */,
+				90C54D9E1718C6D790E41259 /* Pods */,
+				4CDB87B9DFFBFBA62F6A4217 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,12 +168,30 @@
 		09C3ED871E9E01FE00081AE8 /* BlueToothCase */ = {
 			isa = PBXGroup;
 			children = (
+				098AD95D1EBC30620029671A /* warning.mp3 */,
+				098AD9571EBC2C520029671A /* kakao.caf */,
 				09C3ED8B1E9E01FE00081AE8 /* AppDelegate.h */,
-				09C3ED8C1E9E01FE00081AE8 /* AppDelegate.m */,
+				09C3ED8C1E9E01FE00081AE8 /* AppDelegate.mm */,
+				09C3ED991E9E02B000081AE8 /* BTCTableViewController.h */,
+				09C3ED9A1E9E02B000081AE8 /* BTCTableViewController.m */,
+				09F502641EB9AA6400B05279 /* BTCMapViewController.h */,
+				09F502651EB9AA6400B05279 /* BTCMapViewController.mm */,
+				09C3ED9C1E9E08B500081AE8 /* BTCPeripheralViewController.h */,
+				09C3ED9D1E9E08B500081AE8 /* BTCPeripheralViewController.m */,
+				09C3ED9F1EA070F200081AE8 /* BTCSwitchTableViewCell.h */,
+				09C3EDA01EA070F200081AE8 /* BTCSwitchTableViewCell.m */,
+				0916117E1EAD94D500FCA016 /* BTCInfoTableViewCell.h */,
+				0916117F1EAD94D500FCA016 /* BTCInfoTableViewCell.m */,
+				090C98731EB07274009B5687 /* BTCStateObject.h */,
+				090C98741EB07274009B5687 /* BTCStateObject.m */,
+				098AD9611EBC64840029671A /* BTCRemoteTableViewController.h */,
+				098AD9621EBC64840029671A /* BTCRemoteTableViewController.m */,
 				09C3ED8E1E9E01FE00081AE8 /* Assets.xcassets */,
 				09C3ED901E9E01FE00081AE8 /* LaunchScreen.storyboard */,
 				09C3ED931E9E01FE00081AE8 /* Info.plist */,
 				09C3ED881E9E01FE00081AE8 /* Supporting Files */,
+				098AD9641EBC654C0029671A /* UIImage+ZBAdd.h */,
+				098AD9651EBC654C0029671A /* UIImage+ZBAdd.m */,
 			);
 			path = BlueToothCase;
 			sourceTree = "<group>";
@@ -71,6 +204,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4CDB87B9DFFBFBA62F6A4217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				098AD95B1EBC2D600029671A /* AudioToolbox.framework */,
+				098AD9591EBC2D010029671A /* AVFoundation.framework */,
+				098AD94F1EBC26220029671A /* libstdc++.6.0.9.tbd */,
+				098AD94D1EBC26120029671A /* CoreTelephony.framework */,
+				098AD94B1EBC26060029671A /* libsqlite3.0.tbd */,
+				098AD9491EBC25FA0029671A /* Security.framework */,
+				098AD9471EBC25F20029671A /* CoreGraphics.framework */,
+				098AD9451EBC25EB0029671A /* SystemConfiguration.framework */,
+				098AD9431EBC25E40029671A /* OpenGLES.framework */,
+				098AD9411EBC25DB0029671A /* QuartzCore.framework */,
+				098AD93F1EBC25D10029671A /* CoreLocation.framework */,
+				9D0FD29D09E2C0FEB8559997 /* libPods-BlueToothCase.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90C54D9E1718C6D790E41259 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F3AF7C3D225E0F9585496ED /* Pods-BlueToothCase.debug.xcconfig */,
+				D1847971B2409812F8656C99 /* Pods-BlueToothCase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09C3ED961E9E01FE00081AE8 /* Build configuration list for PBXNativeTarget "BlueToothCase" */;
 			buildPhases = (
+				095893BB787EE99F2428C452 /* [CP] Check Pods Manifest.lock */,
 				09C3ED811E9E01FE00081AE8 /* Sources */,
 				09C3ED821E9E01FE00081AE8 /* Frameworks */,
 				09C3ED831E9E01FE00081AE8 /* Resources */,
+				88E3BA73370E245EFB1A13DE /* [CP] Embed Pods Frameworks */,
+				6A99E981DC9F175D30C405BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -102,7 +266,8 @@
 				TargetAttributes = {
 					09C3ED841E9E01FE00081AE8 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = AYDR2YFZ4K;
+						DevelopmentTeam = YKUH73649D;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -130,6 +295,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098AD95E1EBC30620029671A /* warning.mp3 in Resources */,
+				098AD9581EBC2C520029671A /* kakao.caf in Resources */,
+				098AD9561EBC27E00029671A /* mapapi.bundle in Resources */,
 				09C3ED8F1E9E01FE00081AE8 /* Assets.xcassets in Resources */,
 				09C3ED921E9E01FE00081AE8 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -137,13 +305,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		095893BB787EE99F2428C452 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A99E981DC9F175D30C405BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueToothCase/Pods-BlueToothCase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88E3BA73370E245EFB1A13DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueToothCase/Pods-BlueToothCase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09C3ED811E9E01FE00081AE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09C3ED8D1E9E01FE00081AE8 /* AppDelegate.m in Sources */,
+				098AD9631EBC64840029671A /* BTCRemoteTableViewController.m in Sources */,
+				098AD9661EBC654C0029671A /* UIImage+ZBAdd.m in Sources */,
+				09C3EDA11EA070F200081AE8 /* BTCSwitchTableViewCell.m in Sources */,
+				090C98751EB07274009B5687 /* BTCStateObject.m in Sources */,
+				09C3ED9E1E9E08B500081AE8 /* BTCPeripheralViewController.m in Sources */,
+				09C3ED8D1E9E01FE00081AE8 /* AppDelegate.mm in Sources */,
 				09C3ED8A1E9E01FE00081AE8 /* main.m in Sources */,
+				09C3ED9B1E9E02B000081AE8 /* BTCTableViewController.m in Sources */,
+				091611801EAD94D500FCA016 /* BTCInfoTableViewCell.m in Sources */,
+				09F502661EB9AA6400B05279 /* BTCMapViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,25 +477,60 @@
 		};
 		09C3ED971E9E01FE00081AE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3AF7C3D225E0F9585496ED /* Pods-BlueToothCase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AYDR2YFZ4K;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YKUH73649D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = BlueToothCase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mxchip.BlueToothCase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		09C3ED981E9E01FE00081AE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1847971B2409812F8656C99 /* Pods-BlueToothCase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AYDR2YFZ4K;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YKUH73649D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = BlueToothCase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mxchip.BlueToothCase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -294,6 +553,7 @@
 				09C3ED981E9E01FE00081AE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,34 @@
+PODS:
+  - BabyBluetooth (0.7.0)
+  - EmptyDataSet (0.0.1)
+  - MJExtension (3.0.13)
+  - PureLayout (3.0.2)
+  - SVProgressHUD (2.1.2)
+  - XMNetworking (1.0.2):
+    - XMNetworking/Core (= 1.0.2)
+    - XMNetworking/Lib (= 1.0.2)
+  - XMNetworking/Core (1.0.2):
+    - XMNetworking/Lib/AFNetworking-3.1.0
+  - XMNetworking/Lib (1.0.2):
+    - XMNetworking/Lib/AFNetworking-3.1.0 (= 1.0.2)
+  - XMNetworking/Lib/AFNetworking-3.1.0 (1.0.2)
+
+DEPENDENCIES:
+  - BabyBluetooth
+  - EmptyDataSet
+  - MJExtension
+  - PureLayout
+  - SVProgressHUD
+  - XMNetworking
+
+SPEC CHECKSUMS:
+  BabyBluetooth: d50758aecf24d4a0ab9271d69f0f116d6bee51c9
+  EmptyDataSet: 09d0e7ce8a0f8b9955b8d4364390a6f7ecd29d14
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  XMNetworking: bcc1d167c4386fb6bfefb0d6c7087f09333c2e09
+
+PODFILE CHECKSUM: 30fdfbcc0a418e448a7b36b0822a8cf94a491ffd
+
+COCOAPODS: 1.1.1
